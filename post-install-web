@@ -1,0 +1,3 @@
+#!/bin/sh
+chown -R 0:0 /usr/share/graylog2-web/
+
