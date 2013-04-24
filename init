@@ -1,5 +1,13 @@
 #!/bin/bash
 
+### BEGIN INIT INFO
+# Provides:          graylog2
+# Required-Start:    $elasticsearch
+# Required-Stop:     $elasticsearch
+# Default-Start:     2 3 4 5
+# Default-Stop:
+### END INIT INFO
+
 CMD=$1
 NOHUP=`which nohup`
 
