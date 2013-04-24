@@ -1,4 +1,5 @@
 #!/bin/sh
-chown -R 0:0 /usr/share/graylog2-server/
+chown -R 0:0 /etc/graylog2
+chown -R 0:0 /usr/share/graylog2-server
 chmod 755 /etc/init.d/graylog2
 
